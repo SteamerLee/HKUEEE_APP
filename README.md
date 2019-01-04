@@ -16,7 +16,7 @@
 
 ### Main Function
 - Staff
-    - show teachers' information form HKU EEE 	        department.
+    - show teachers' information from HKU EEE 	        department.
 	
 - Map  
     - Test the distance between user and HKU.
