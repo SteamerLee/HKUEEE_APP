@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_headtitle_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="95dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hku_logo_vs_color" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="72dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="General"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+
+    </LinearLayout>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".program.Link">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/e6081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6081)  Biomedical signals and systems"/>
+
+        <TextView
+            android:id="@+id/te6081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at introducing the origins, characteristics, analyses and clinical applications of the most common and clinically important medical signals, including electrocardiography (ECG), electromyography (EMG), electroencephalography (EEG), etc. Application-oriented biomedical signal processing and pattern recognition techniques will be introduced, ranging from the very basic methods (e.g., Fourier transform) to advanced methods (e.g.,neural network). With the aid of in-depth case studies, the course offers practical guidance on how to choose appropriate processing methods for solving specific problems of biomedical research. Recent developments and the state-of-the-art of biomedical signals and systems, such as brain-computer interface, will also be discussed." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6084"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6084)  Power delivery management for metropolitan cities"/>
+
+        <TextView
+            android:id="@+id/te6084"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides a platform for electrical engineers to strengthen their technical expertise in power delivery in metropolitan cities from design to application at an advanced level. State-of-the-art technologies tor safe, reliable, cost-effective and environmentally-friendly power delivery to customers are covered. Major power delivery network designs together with the associated protection systems adopted by reputable power companies worldwide for ensuring supply reliability and operational effectiveness are also included. Strategies for loss prevention management, enhancement of supply reliability and power quality are also examined.
+
+Whilst the course is most valuable to practising electrical engineers, it also furnishes engineers of other related disciplines with necessary engineering knowledge for coordinating their work with counterparts engaged in power supply industry as well as building services engineering field." />
+
+        <include layout="@layout/lines" />
+
+
+
+        <TextView
+            android:id="@+id/e6602"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6602)  Business venture in China"/>
+
+
+        <TextView
+            android:id="@+id/te6602"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course covers the following topics: China economic landscape briefing; foreigner’s perception on China; absolute advantages of overseas and SAR Chinese; forms of ventures; business competition; modeling negotiation; building successful ventures in China.
+
+By means of problem-based learning, case studies, team interactions, opportunity visits and lectures, a student shall improve understanding of business channels and niches in China. The student shall acquire skill and proficiency through the projects and presentations. He shall be able to apply concepts and to develop business venture models for himself or potential entrants under the present circumstances."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6603"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6603)  Success in industrial entrepreneurship"/>
+
+        <TextView
+            android:id="@+id/te6603"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course covers the following topics: Framework for entrepreneurship; identifying resources, capabilities, environments, opportunities and strategies; business plan; financing the new venture; risk balancing and staged financing; creating an organization.
+
+By means of problem-based learning, case studies, guest induction, team interaction and lectures, a student shall improve feeling of entrepreneurship and new opportunities; along with understanding of successful models and business concepts. The student shall acquire skill and proficiency through the projects and presentations. He shall be able to apply concepts and to elaborate successful opportunities and extend them to potential applications."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6604"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6604)  Neural networks, fuzzy systems and genetic algorithms"/>
+
+        <TextView
+            android:id="@+id/te6604"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides a general introduction to neural networks, fuzzy systems and genetic algorithms. The fundamental concepts and techniques of these three areas will be given. The course will also provide examples on the application of neural networks, fuzzy systems and genetic algorithms to a variety of engineering problems. This course will cover three important topics in the field of Applied Artificial Intelligence. By the end of this course, student should possess a firm grounding in the concepts and techniques of neural network, fuzzy system and genetic algorithm. The student should be able to apply the acquired knowledge to the development of intelligent systems or to the exploration of research problems."/>
+
+        <include layout="@layout/lines" />
+
+
+        <TextView
+            android:id="@+id/e7079"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7079)  Investment and trading for engineering students "/>
+
+        <TextView
+            android:id="@+id/te7079"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course is designed for engineering students who wish to start a career in the financial industry. This course helps students to develop the basic knowledge, skill sets, and vocabulary that can communicate with the practitioners in financial industry. Students are expected to learn how to develop market view by analyzing the driving factors to forecast the movement of financial assets like equities and foreign exchange.  Students will learn various financial instruments and quantitative models to support the development of investment and trading strategies. The financial instruments will be covered in this course include: options, futures and other derivatives of equities, commodities, and foreign exchanges as well as their pricing models. Investment and trading strategies that will be discussed in this course include those that commonly used in the market, for example, VWAP, TWAP, Bollinger Band, and RSI.
+
+Mutually exclusive with: COMP7802 Introduction to financial computing"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7080"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7080)  Algorithmic trading and high frequency trading "/>
+
+        <TextView
+            android:id="@+id/te7080"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Program trading, which includes high frequency trading (HFT), has become important that it generated over sixty percent of trading volume at Nasdaq and NYSE. There are wide range of issues involved in program trading process, which include opportunities identification, cost/friction estimation, market impact estimation, trading strategies selection, trade scheduling, capital and liquidity management, risk management, and exit management. In this course we will review the foundations of securities trading and discuss issues that related to the market microstructure. We will review important models in the microstructure and present mathematical tools in their structural and statistical representations. We will also discuss the costs associated with trading, how these costs are measured and strategies that minimize them, including the study of models for optimal splitting of the orders across time, to reduce transaction costs and control the temporary and permanent price adjustments that result from trades. 'Is that possible to use HFT in China or Hong Kong equities, options, or futures markets?' was a question that constantly been asked by practitioners and we will search for the answer together."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7081)  Advanced Topics in Computational Finance"/>
+
+        <TextView
+            android:id="@+id/te7081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims to introduce finance to engineering students. Students will be introduced research that shape the frontier in finance industry.
+
+By the end of this course, students should know what computational finance is. They should be able to realize business potentials that arise from advances in computing (the business perspective). They should also understand where in finance computational methods could be applied to (the technology perspective). They should understand what computation methods are most used in finance. They should understand the synergy between computation and finance."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7402"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:text="(ELEC7402)  Advanced electric vehicle technology "/>
+
+        <TextView
+            android:id="@+id/te7402"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at providing in-depth understanding of the latest technologies of electric vehicles (EVs), with emphasis on their system configurations, propulsion systems, energy systems, and development trends.
+
+Specifically, the course covers the following topics: latest EV system concepts and designs, advanced electric machines and drives for EVs, advanced hybrid powertrains for hybrid EVs, advanced EV energy sources and energy management systems, and EV-to-grid technology."/>
+
+        <include layout="@layout/lines" />
+
+
+        <include layout="@layout/lines" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/e"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text=""/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/te"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:text=""/>-->
+
+        <!--<include layout="@layout/lines" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/e"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text=""/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/te"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:text=""/>-->
+
+        <!--<include layout="@layout/lines" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/e"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text=""/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/te"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:text=""/>-->
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

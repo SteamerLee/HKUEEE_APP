@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#208b80</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#b2e49393</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#dd000000</color>
+
+    <!--Terry_start-->
+    <color name="color_program_title_background">#d3fad74e</color>
+    <color name="color_program_title_text">#393939</color>
+    <color name="color_no">#00e10c0c</color>
+    <color name="color_buttom">#b532a79c</color>
+    <color name="color_background">#a0ebe7db</color>
+    <color name="color_headtitle_background">#c0d9eccb</color>
+    <color name="color_tav_background">#d81eff1e</color>
+
+</resources>

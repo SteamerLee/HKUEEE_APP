@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_headtitle_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="95dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hku_logo_vs_color" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="35dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="5dp"
+            android:text="Communication"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_background"
+        android:orientation="vertical"
+        tools:context=".program.Communication">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/E6006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6006) Communications policy and regulations "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TE6006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims to provide a comprehensive understanding of Communications Policy and Regulations, and latest ICT policy and regulatory practices in the leading markets and economies. It helps students to appreciate the integration of multi-disciplinary knowledge in ICT industry.
+
+The course also covers some advanced policy and regulatory topics in the ICT industry including convergence licensing regime, co-regulation/self-regulation, and consumer protection regulation." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6008"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6008)  Pattern recognition and machine learning"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6008"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at providing fundamental knowledge on the principles and techniques of pattern recognition and machine learning.
+Specifically, the course covers the following topics: Bayes decision theory; parametric and non-parametric methods; linear discriminant functions; unsupervised learning and clustering; feature extraction; neural networks; context-dependent classification; case studies.
+Pre-requisite: A good background in linear algebra, programming experience.
+Mutually exclusive with: COMP7504 Pattern recognition and applications" />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6026"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6026)  Digital signal processing "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6026"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course provides an introduction to the fundamental concepts of digital signal processing (DSP) including a wide variety of topics such as discrete-time linear-time invariant systems, sampling theorem, z-transform, discrete-time/discrete Fourier transform, and digital filter design. Furthermore, the course will also discuss in detail about other advanced topics in digital signal processing such as multidimensional signals and systems, random processes and applications, and adaptive signal processing." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6036"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6036)  High-performance computer architecture"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6036"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at providing an in-depth understanding of the principles, architectures and implementations of modern high performance computer systems which are designed and based on the proactive use of instruction-level parallelism (ILP). Specifically, the course discusses with examples and case studies to investigate the high-performance computing models; pipelining and ILP; advanced pipelining design including the scoreboard and Tomasulo algorithm; speculative execution; advanced computing models such as the cloud computing models and their possible uses in general, scientific or financial applications; and case studies like the Amazon EC2 and Google Cloud platforms." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6065"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6065)  Data compression "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6065"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course provides an introduction to the state-of-the-art compression techniques for typical media including files, digital images, videos and audios.  Specifically, the course will discuss in detail about the coding and quantization techniques commonly used for images, videos and audios. Finally, the course will cover basic concept and terminologies of common image, video and audio standards." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6080"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6080)Telecommunications systems and management "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6080"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims to provide a comprehensive understanding of major telecommunications systems (i.e. fixed, mobile, wireless, etc.), and contemporary management practices (e.g. strategy planning, product development, marketing, customer service, etc.) in telecommunications systems. It helps students to appreciate the integration of multi-disciplinary knowledge in telecommunications sectors.
+
+The course also covers some more advanced topics in the ICT industry including next generation networks (e.g. NGA such as FTTx, HSPA+/4G/LTE, HetNet, etc.), convergence development (i.e. device, network, service, sector, etc.), multiple-play and OTT services." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6097"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6097)  IP Networks"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6097"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at enabling detailed understanding about how the Internet works.  The course will begin by focusing on the fundamental concepts in the Internet architecture.  This is followed by detailed examinations of the key protocols at application layer, transport layer, network layer, and link layer.
+
+Mutually exclusive with: ELEC6007, ELEC7144" />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6098"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6098)  Electronic and mobile commerce"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6098"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at introducing both technical, commercial and managerial knowledge on electronic commerce and mobile. The course will start with an introduction to the Business-to-Consumer (B2C) Model; Business-to- Business (B2B) model, followed by an overviews of different enabling technologies for electronic commerce and mobile commerce such as the location base technology, RFID, GPS, mobile network, electronic payment, server-side and channel security, Near Field Communication, QR Code, augmented reality and other latest technologies deploying in the industry. By the end of the course, the research trend and the way forward of the industry will be discussed.
+
+Mutually exclusive with: ELEC6078, ELEC6086" />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6099"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6099)  Wireless communications and networking"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6099"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at introducing the technologies on wireless communications and issues on wireless networking. The course will start with an introduction to wireless communication theories. Afterward, short-range wireless technologies and standards (bluetooth, IEEE 802.11) are discussed. This is followed by long-range wireless technologies and standards (cellular, UMTS, LTE/SAE). Important system issues in wireless networking such as mobility management (Mobile IP, location dependent services, power management) and security issues are then covered in detail. Finally, the course will introduce various state-of-the-art wireless networking frontier problems (ad hoc routing, packet scheduling, femtocell, white-space networking) and mobile data application issues.
+
+Mutually exclusive with: ELEC6040, ELEC6071, ELEC6087" />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6100)  Digital Communications"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at enabling the fundamental understanding of the digital communication systems. After an overview on basic probability and random processes, the module will cover different modulations and their optimal decision rules, with an emphasis on signal space representation. Then, performance analyses under additive white Gaussian noise channel and fading channel are examined. This is followed by topics on spatial diversity and channel equalization.
+
+Mutually exclusive with: ELEC6014 and ELEC6045" />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6103)  Satellite communications"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course is an introduction to satellite communications taught at a level appropriate for postgraduates reading for the MSc curriculum in electrical and electronic engineering. It is aimed at providing a general understanding and an overview on satellite communications, with emphasis on the recent applications and developments
+
+The following topics will be covered: basics of satellite communications system: orbital aspects, launching, link budgets, modulation, error control coding, and multiple access, earth station, very small aperture terminals (VSATs), global positioning system (GPS) and satellites for mobile communication.
+
+At the end of the course, students should have gained a general understanding on satellite communications systems and also recent applications and developments of satellite communications." />
+
+            <include layout="@layout/lines" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

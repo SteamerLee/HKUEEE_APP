@@ -1,0 +1,108 @@
+Index: app/src/main/java/hk/hku/eee/hkueee/menuactivity/ProgrammeDescription.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/hk/hku/eee/hkueee/menuactivity/ProgrammeDescription.java	(date 1544476672408)
++++ app/src/main/java/hk/hku/eee/hkueee/menuactivity/ProgrammeDescription.java	(date 1544476672408)
+@@ -1,5 +1,7 @@
+ package hk.hku.eee.hkueee.menuactivity;
+ 
++
++
+ import android.support.v7.app.AppCompatActivity;
+ import android.os.Bundle;
+ import android.view.View;
+@@ -15,6 +17,7 @@
+ 
+ 
+ public class ProgrammeDescription extends AppCompatActivity {
++
+     private ExpandableListView expandableListView;
+ 
+     private ExpandableListViewAdapter expandableListViewAdapter;
+@@ -23,6 +26,9 @@
+ 
+     private HashMap<String, List<String>> listDataChild;
+ 
++
++
++
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+@@ -77,7 +83,7 @@
+             @Override
+             public void onGroupExpand(int groupPosition) {
+                 Toast.makeText(getApplicationContext(),
+-                        listDataGroup.get(groupPosition) + " " + getString(R.string.text_collapsed),
++                        listDataGroup.get(groupPosition) + " " + getString(R.string.text_expanded),
+                         Toast.LENGTH_SHORT).show();
+             }
+         });
+@@ -125,46 +131,46 @@
+ 
+         // Adding group data
+         listDataGroup.add(getString(R.string.text_Definition_and_Terminology));
+-        listDataGroup.add(getString(R.string.text_coffee));
+-        listDataGroup.add(getString(R.string.text_pasta));
+-        listDataGroup.add(getString(R.string.text_cold_drinks));
++        listDataGroup.add(getString(R.string.text_Curriculum_Structure));
++        listDataGroup.add(getString(R.string.text_Subject_Groups));
++        listDataGroup.add(getString(R.string.text_Dissertation_Information));
+ 
+         // array of strings
+         String[] array;
+ 
+         // list of alcohol
+-        List<String> alcoholList = new ArrayList<>();
+-        array = getResources().getStringArray(R.array.string_array_alcohol);
++        List<String> Definition_and_Terminology_List = new ArrayList<>();
++        array = getResources().getStringArray(R.array.string_array_Definition_and_Terminology);
+         for (String item : array) {
+-            alcoholList.add(item);
++            Definition_and_Terminology_List.add(item);
+         }
+ 
+         // list of coffee
+-        List<String> coffeeList = new ArrayList<>();
+-        array = getResources().getStringArray(R.array.string_array_coffee);
++        List<String> Curriculum_Structure_List = new ArrayList<>();
++        array = getResources().getStringArray(R.array.string_array_Curriculum_Structure);
+         for (String item : array) {
+-            coffeeList.add(item);
++            Curriculum_Structure_List.add(item);
+         }
+ 
+         // list of pasta
+-        List<String> pastaList = new ArrayList<>();
+-        array = getResources().getStringArray(R.array.string_array_pasta);
++        List<String> Subject_Groups_List = new ArrayList<>();
++        array = getResources().getStringArray(R.array.string_array_Subject_Groups);
+         for (String item : array) {
+-            pastaList.add(item);
++            Subject_Groups_List.add(item);
+         }
+ 
+         // list of cold drinks
+-        List<String> coldDrinkList = new ArrayList<>();
+-        array = getResources().getStringArray(R.array.string_array_cold_drinks);
++        List<String> Dissertation_Information_List = new ArrayList<>();
++        array = getResources().getStringArray(R.array.string_array_Dissertation_Information);
+         for (String item : array) {
+-            coldDrinkList.add(item);
++            Dissertation_Information_List.add(item);
+         }
+ 
+         // Adding child data
+-        listDataChild.put(listDataGroup.get(0), alcoholList);
+-        listDataChild.put(listDataGroup.get(1), coffeeList);
+-        listDataChild.put(listDataGroup.get(2), pastaList);
+-        listDataChild.put(listDataGroup.get(3), coldDrinkList);
++        listDataChild.put(listDataGroup.get(0), Definition_and_Terminology_List);
++        listDataChild.put(listDataGroup.get(1), Curriculum_Structure_List);
++        listDataChild.put(listDataGroup.get(2), Subject_Groups_List);
++        listDataChild.put(listDataGroup.get(3), Dissertation_Information_List);
+ 
+         // notify the adapter
+         expandableListViewAdapter.notifyDataSetChanged();

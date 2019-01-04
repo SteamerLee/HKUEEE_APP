@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_headtitle_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="95dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hku_logo_vs_color" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="35dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="Health Service"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_background"
+        android:orientation="vertical"
+        tools:context=".program.Life">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="保健處"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/health_pt"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:paddingBottom="0dp"
+                app:srcCompat="@drawable/health_pt" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Opening Hours"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/health_details"
+                android:layout_width="380dp"
+                android:layout_height="700dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="0dp"
+                app:srcCompat="@drawable/health_details" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

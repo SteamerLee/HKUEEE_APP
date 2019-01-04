@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical"
+    tools:context=".menuactivity.Course">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_headtitle_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="139dp"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/hku_logo_vs_color" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:text="Course"
+                android:textSize="60sp"
+                android:typeface="normal" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/general"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@color/color_buttom"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="general"
+            android:textAppearance="@android:style/TextAppearance.Material.WindowTitle"
+            android:textSize="29sp" />
+
+        <Button
+            android:id="@+id/Communication"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@color/color_buttom"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="communication"
+            android:textAppearance="@android:style/TextAppearance.Material.WindowTitle"
+            android:textSize="29sp" />
+
+        <Button
+            android:id="@+id/Power"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@color/color_buttom"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="power"
+            android:textAppearance="@android:style/TextAppearance.Material.WindowTitle"
+            android:textSize="29sp" />
+
+    </LinearLayout>
+</LinearLayout>

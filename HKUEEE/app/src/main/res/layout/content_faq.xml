@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".menuactivity.FAQ"
+    tools:showIn="@layout/activity_faq">
+
+    <LinearLayout
+        android:id="@+id/faqline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt1"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt2"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt3"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt4"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt5"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt6"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt7"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt8"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt9"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt10"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt11"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt12"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/fqt13"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/fq14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fqt14" />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

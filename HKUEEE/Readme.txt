@@ -1,0 +1,1 @@
+This verson has finished the function 2 that show the list of teacher information. 

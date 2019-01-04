@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_headtitle_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="95dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hku_logo_vs_color" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="85dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="Power"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_background"
+        android:orientation="vertical"
+        tools:context=".program.Power">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/e6055"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6055)  Power system distribution"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6055"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course provides a platform for electrical engineers to strengthen their technical expertise in power distribution from design to application at an advanced level.  State-of-the-art technologies for distributing electricity safely, reliably, cost-effectively and environmentally to customers are covered.   Major distribution network configurations together with the associated protection systems adopted by reputable power companies worldwide for ensuring supply reliability and operational flexibility are also included.  Strategies for enhancing supply reliability and power quality, as well as meter revenue loss prevention techniques are also examined.
+
+Whilst the course is most valuable to practising electrical engineers, it also furnishes engineers of other trades with background knowledge for coordinating their work with counterparts engaged in power supply industry as well as building services engineering field." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6063"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6063)Optoelectronics and lightwave technology"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6063"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="The aim of this course is to broaden the knowledge in the hardware of in optical communication systems from optoelectronic devices to integrated optical network.
+Optical communication system has almost become a 'must' technique in data/signal transmission (i.e.fiber to home).
+
+ Students will have the ability to address the issues:
+(i)	what optoelectronic components are required in the system and the operation principles and device physics,
+(ii)the issues that have been be considered to build an optical network by using the optoelectronic components
+(iii)to evaluate the performance of the optical network to meet the target/budget (technical) and to improve the performance (using advanced technology).
+All the issues will be discussed in this course." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6085"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6085)The role of a computerized SCADA system in power system operation "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6085"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at introducing the methodologies for designing a Computerized Supervisory Control and Data Acquisition (SCADA) system for power system control and automation. The course will start with an introduction to basic power system operations for ensuring secure and effective power generation, transmission and distribution and how SCADA systems can help. Then the basic functions of a SCADA system will be analyzed and described. This is followed by automatic functions which can be implemented for power systems to enhance performance, reliability and economy. After that the software structure of various subsystems in a SCADA system will be explained. Finally, techniques for enhancing SCADA system performance and reliability will be introduced." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e6095"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC6095)  Smart grid"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te6095"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at providing fundamental knowledge of various smart grid technologies. The challenges of the future electric power grid, renewable energy integration, energy utilization, energy storage system, automation and communication technologies in smart grid will be covered. Topics on the smart devices/applicances and energy saving control are included.
+
+Mutually exclusive with: ELEC6096, MEBS6018" />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e7403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC7403)  Advanced power electronics"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te7403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="The aim of this course is to provide students with an understanding of advanced subject matters in power electronics, which include (i) high-frequency switching converters; (ii) dynamics and control of switching converters; (iii) modeling of switching converters; (iv) components and devices; and (v) industrial requirements. Students enrolled in the course are expected to have prior understanding of basic power electronic principles and the operations of rectifier and phase controlled circuits, and DC/DC buck, boost, buck-boost, and Cuk converters, and knowledge of basic power devices such as power transistor, power MOSFET, and IGBT." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e7456"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC7456)  Advanced power system operation"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te7456"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="The course discusses advanced operation methodology and control theory for modern power systems.  A rigorous treatment will be adopted for practical power system operation issues, including supply demand balance, plant scheduling and unit commitment, automatic generation control and economic dispatch, load flow and fault level control, voltage and stability control, security assessment and operational planning, protection and communication system, process control system and real time control, switching operation and operational safety, emergency preparedness and black start strategy, and power system deregulation and open market’s impact to system operation.
+
+The course aims at providing students an in depth appreciation of the major issues in power system operation, thorough understanding of the concepts and principles to operate the system, and the ability to mastering the strategy and methodology to tackle these issues with clear objectives to ensure safety, security and efficiency of the entire power system." />
+
+            <include layout="@layout/lines" />
+
+            <TextView
+                android:id="@+id/e7466"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="(ELEC7466)  Advanced topics in power system engineering "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/te7466"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="This course aims at enabling detailed understanding about specific topics and issues of special current interest in power system engineering. In particular, by analysing how recent large system blackouts had occurred and the reasons leading to such incidents.  The course will begin by focusing on the fundamental concepts in power system design and planning, operation and equipment choice.  Special topics on issues and problem areas in network configuration, short circuit level coordination, generator design, power system stability, reactive power compensation and voltage control will be discussed.
+
+The course also covers some advanced topics in practical issues in power system control in a modern power system control centre as well as discusses observations and different viewpoints about open power market operation in the Electricity Supply Industry." />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
