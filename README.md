@@ -53,11 +53,6 @@
    
     
 ### Developers
-- Zhenglong LI
-- Sihong Chen
-- Jiuming Wang
-
-### Contact email
-- lzlong@connect.hku.hk
-- chansh3@connect.hk.hk
-- jiumingw@connect.hku.hk
+- Samuel LI
+- Terry Chen
+- Harrison Wang
